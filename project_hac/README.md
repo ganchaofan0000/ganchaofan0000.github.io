@@ -1,1 +1,1 @@
-# lightgaussian.github.io
+# https://yihangchen-ee.github.io
