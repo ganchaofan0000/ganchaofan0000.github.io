@@ -29,7 +29,7 @@ title: Selected Projects
       <p style="margin: 1px 0;"><b>How Far Can We Compress Instant-NGP-Based NeRF?</b></p>
       <p style="margin: 10px 0;"><em>CVPR 2024</em></p>
       <p style="margin: -1px 0;"><span style="font-weight: bold;"><u>Yihang Chen</u></span>, <a href="https://qianyiwu.github.io" target="_blank">Qianyi Wu</a>, <a href="https://sites.google.com/site/mehrtashharandi/" target="_blank">Mehrtash Harandi</a>, <a href="http://jianfei-cai.github.io" target="_blank">Jianfei Cai</a></p>
-      <p style="margin: -1px 0;"><a href="https://arxiv.org/abs/2406.04101" target="_blank">[PDF]</a>, <a href="https://yihangchen-ee.github.io/project_cnc/" target="_blank">[Project Page]</a>, <a href="https://github.com/yihangchen-ee/cnc/" target="_blank">[Code]</a></p>
+      <p style="margin: -1px 0;"><a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_How_Far_Can_We_Compress_Instant-NGP-Based_NeRF_CVPR_2024_paper.pdf" target="_blank">[PDF]</a>, <a href="https://yihangchen-ee.github.io/project_cnc/" target="_blank">[Project Page]</a>, <a href="https://github.com/yihangchen-ee/cnc/" target="_blank">[Code]</a></p>
     </div>
   </div>
 
