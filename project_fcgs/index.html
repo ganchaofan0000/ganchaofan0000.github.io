@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Compression for the 3D Gaussian Splatting Structure">
+  <meta name="keywords" content="3DGS, Compression">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fast Feedforward 3D Gaussian Splatting Compression</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  <script src="./static/js/script.js"></script>
+
+</head>
+
+<body>
+
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://yihangchen-ee.github.io/">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          Related Researches
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://yihangchen-ee.github.io/project_cnc/">
+            NeRF compression: CNC
+          </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://yihangchen-ee.github.io/project_hac/">
+            3DGS compression: HAC
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Fast Feedforward 3D Gaussian Splatting Compression</h1>
+
+          <div class="is-size-4 publication-authors">
+                <span class="univerity-block" style="color: rgb(150, 0, 0);">ARXIV 2024</span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://yihangchen-ee.github.io/">Yihang Chen</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://qianyiwu.github.io/">Qianyi Wu</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=fAIEYrEAAAAJ&hl=zh-CN&oi=ao">Mengyao Li</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://weiyaolin.github.io/">Weiyao Lin</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://sites.google.com/site/mehrtashharandi/">Mehrtash Harandi</a>,
+            </span>
+            <span class="author-block">
+              <a href="http://jianfei-cai.github.io/">Jianfei Cai</a>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Shanghai Jiao Tong University, Monash University, Shanghai University</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://yihangchen-ee.github.io"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-home"></i>
+                  </span>
+                  <span>Home</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2403.14530"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/YihangChen-ee/FCGS"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./static/images/teaser.png" alt="Teaser image."/>
+      <!-- <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="./static/videos/teaser.mp4"
+                type="video/mp4">
+      </video> -->
+      <h2 class="subtitle has-text-centered">
+        A fast, hassle-free and optimization-free solution for 3D Gaussian Splatting Compression!
+      </h2>
+    </div>
+    <br>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            <em>Although various compression techniques have been proposed, previous art suffers from a common limitation: <b>for any existing 3DGS, per-scene optimization is needed to achieve compression, making the compression sluggish and slow.</b></em>
+          </p>
+          <p>
+            <em>We propose <b>F</b>ast <b>C</b>ompression of 3D <b>G</b>aussian <b>S</b>platting (<b>FCGS</b>), an optimization-free model that can compress 3DGS representations rapidly in a single feed-forward pass, which significantly reduces compression time from <b>minutes</b> to <b>seconds</b>.</em>
+          </p>
+          <p>
+            To enhance compression efficiency, we propose a multi-path entropy module that assigns Gaussian attributes to different entropy constraint paths for balance between size and fidelity. We also carefully design both inter- and intra-Gaussian context models to remove redundancies among the unstructured Gaussian blobs.
+          </p>
+          <p>
+            Overall, FCGS achieves a compression ratio of over <font color="#FF0000"><b>20X</b></font> while maintaining fidelity, surpassing most per-scene SOTA optimization-based methods.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+
+    <!-- Animation. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width"  align="center">
+        <h2 class="title is-3">Main Method</h2>
+        <p align="left">
+          Overview of our FCGS method. We customize both <b>M</b>ulti-path <b>E</b>ntropy <b>M</b>odule (<b>MEM</b>) and various <b>context models</b> for the special structure of 3DGS to achieve excellent compression performance.
+          <em>Please refer to the paper for more technique details.</em>
+        </p>
+        <img src="./static/images/main_method.png"/>
+        <!--/ Interpolating. -->
+
+      </div>
+    </div>
+    <!--/ Animation. -->
+
+    <!-- Animation. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width"  align="center">
+        <h2 class="title is-3">Main Performance</h2>
+        <p align="left">
+          Despite unable to do per-scene optimization, we still achieve superior compression performance.
+          FCGS can <font color="#FF0000"><b>directly</b></font>:
+        </p>
+        <p align="left">
+          <b>(1) compress 3DGS from optimization</b>; <b>(2) compress 3DGS from generation models</b>; <b>(3) boost pruning-based approaches</b>.
+        </p>
+        <img src="./static/images/main_curve.png"/>
+        <img src="./static/images/main_curve_gene.png"/>
+        <img src="./static/images/supple_boost_mini_trim.png"/>
+        <!--/ Interpolating. -->
+
+      </div>
+    </div>
+    <!--/ Animation. -->
+
+
+
+    <!-- Concurrent Work. -->
+    <!-- <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Related Links</h2>
+
+        <div class="content has-text-justified">
+          <p>
+            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
+          </p>
+          <p>
+            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
+            both use deformation fields to model non-rigid scenes.
+          </p>
+          <p>
+            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
+          </p>
+          <p>
+            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
+          </p>
+        </div>
+      </div>
+    </div> -->
+    <!--/ Concurrent Work. -->
+
+  </div>
+</section>
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+      @article{fcgs2024,
+        title={Fast Feedforward 3D Gaussian Splatting Compression},
+        author={Chen, Yihang and Wu, Qianyi and Li, Mengyao and Lin, Weiyao and Harandi, Mehrtash and Cai, Jianfei},
+        booktitle={arXiv preprint},
+        year={2024}
+      }
+    </code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="./static/videos/nerfies_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://yihangchen-ee.github.io" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>. The website template is based on <a
+            href="https://github.com/nerfies/nerfies.github.io">nerfies</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+</body>
+
+</html>
