@@ -12,7 +12,7 @@ title: Selected Projects
     </div>
     <div style="flex: 2; padding-left: 1px; padding-top: 12px; padding-bottom: 13px; margin-left: 30px;">
       <p style="margin: 1px 0;"><b>Fast Feedforward 3D Gaussian Splatting Compression</b></p>
-      <p style="margin: 10px 0;">ARXIV 2024, under review</p>
+      <p style="margin: 10px 0;">ARXIV 2024, preprint</p>
       <p style="margin: -1px 0;"><small><span style="font-weight: bold;"><u>Yihang Chen</u></span>, <a href="https://qianyiwu.github.io" target="_blank">Qianyi Wu</a>, <a href="https://scholar.google.com/citations?user=fAIEYrEAAAAJ&hl=zh-CN&oi=ao" target="_blank">Mengyao Li</a>, <a href="https://weiyaolin.github.io" target="_blank">Weiyao Lin</a>, <a href="https://sites.google.com/site/mehrtashharandi/" target="_blank">Mehrtash Harandi</a>, <a href="http://jianfei-cai.github.io" target="_blank">Jianfei Cai</a></small></p>
       <p style="margin: -1px 0;"><a href="https://arxiv.org/pdf/2410.08017" target="_blank">[Arxiv]</a>, <a href="https://yihangchen-ee.github.io/project_fcgs/" target="_blank">[Project]</a>, <a href="https://github.com/yihangchen-ee/fcgs/" target="_blank">[Code]</a></p>
     </div>
