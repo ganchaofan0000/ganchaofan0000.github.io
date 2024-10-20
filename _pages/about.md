@@ -38,11 +38,11 @@ If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ARXIV 2024, preprint</div><img src='images/paper_fcgs_teaser.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<font size="3.5">
-  <b><span style="color:#4169e1;">[ARXIV 2024, preprint]</span> Fast Feedforward 3D Gaussian Splatting Compression</b>
-</font>
+<font size="3.5"><b>Fast Feedforward 3D Gaussian Splatting Compression</b></font>
 
 <p style="margin: -1px 0;"><span style="font-weight: bold;"><u>Yihang Chen</u></span>, <a href="https://qianyiwu.github.io" target="_blank">Qianyi Wu</a>, <a href="https://scholar.google.com/citations?user=fAIEYrEAAAAJ&hl=zh-CN&oi=ao" target="_blank">Mengyao Li</a>, <a href="https://weiyaolin.github.io" target="_blank">Weiyao Lin</a>, <a href="https://sites.google.com/site/mehrtashharandi/" target="_blank">Mehrtash Harandi</a>, <a href="http://jianfei-cai.github.io" target="_blank">Jianfei Cai</a></p>
+
+<em><b>ARXIV</b> 2024, preprint</em>
 
 [**Arxiv**](https://arxiv.org/pdf/2410.08017) | [**Project**](https://yihangchen-ee.github.io/project_fcgs/) | [**Github**](https://github.com/YihangChen-ee/FCGS)
 - **Compress existing 3DGS rapidly in seconds without optimization!** 
@@ -53,11 +53,11 @@ If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2024</div><img src='images/paper_hac_teaser.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<font size="3.5">
-  <b><span style="color:#4169e1;">[ECCV 2024]</span> HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression</b>
-</font>
+<font size="3.5"><b>HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression</b></font>
 
 <p style="margin: -1px 0;"><span style="font-weight: bold;"><u>Yihang Chen</u></span>, <a href="https://qianyiwu.github.io" target="_blank">Qianyi Wu</a>, <a href="https://weiyaolin.github.io" target="_blank">Weiyao Lin</a>, <a href="https://sites.google.com/site/mehrtashharandi/" target="_blank">Mehrtash Harandi</a>, <a href="http://jianfei-cai.github.io" target="_blank">Jianfei Cai</a></p>
+
+<em>European Conference on Computer Vision (<b>ECCV</b>), 2024</em>
 
 [**Paper**](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01178.pdf) | [**Arxiv**](https://arxiv.org/pdf/2403.145301) | [**Project**](https://yihangchen-ee.github.io/project_hac/) | [**Github**](https://github.com/YihangChen-ee/HAC)
 - **Compress 3D Gaussian Splatting for 75X without fidelity drop!** 
@@ -68,11 +68,11 @@ If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/paper_cnc_teaser.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<font size="3.5">
-  <b><span style="color:#4169e1;">[CVPR 2024]</span> How Far Can We Compress Instant-NGP-Based NeRF?</b>
-</font>
+<font size="3.5"><b>How Far Can We Compress Instant-NGP-Based NeRF?</b></font>
 
 <p style="margin: -1px 0;"><span style="font-weight: bold;"><u>Yihang Chen</u></span>, <a href="https://qianyiwu.github.io" target="_blank">Qianyi Wu</a>, <a href="https://sites.google.com/site/mehrtashharandi/" target="_blank">Mehrtash Harandi</a>, <a href="http://jianfei-cai.github.io" target="_blank">Jianfei Cai</a></p>
+
+<em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2024</em>
 
 [**Paper**](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_How_Far_Can_We_Compress_Instant-NGP-Based_NeRF_CVPR_2024_paper.pdf) | [**Arxiv**](https://arxiv.org/pdf/2406.04101) | [**Project**](https://yihangchen-ee.github.io/project_cnc/) | [**Github**](https://github.com/YihangChen-ee/CNC)
 - **Significant compression ratio of 100X based on Instant-NGP!** 
@@ -83,11 +83,11 @@ If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM TOMM 2024</div><img src='images/paper_shizhan_teaser.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<font size="3.5">
-  <b><span style="color:#4169e1;">[ACM TOMM 2024 2024]</span> A Unified Framework for Jointly Compressing Visual and Semantic Data</b>
-</font>
+<font size="3.5"><b>A Unified Framework for Jointly Compressing Visual and Semantic Data</b></font>
 
 <p style="margin: -1px 0;"><a href="https://scholar.google.com/citations?user=LtTzNK4AAAAJ&hl=zh-CN&oi=ao" target="_blank">Shizhan Liu</a>, <a href="https://weiyaolin.github.io" target="_blank">Weiyao Lin</a>, <span style="font-weight: bold;"><u>Yihang Chen</u></span>, Yufeng Zhang, <a href="https://scholar.google.com/citations?user=Xg8MhyAAAAAJ&hl=zh-CN&oi=ao" target="_blank">Wenrui Dai</a>, <a href="https://johnsee.net" target="_blank">John See</a>, <a href="https://scholar.google.com/citations?user=bB16iN4AAAAJ&hl=zh-CN&oi=ao" target="_blank">Hongkai Xiong</a></p>
+
+<em>ACM Transactions on Multimedia Computing, Communications, and Applications (<b>ACM TOMM</b>), 2024</em>
 
 [**Paper**](https://dl.acm.org/doi/full/10.1145/3654800)
 </div>
@@ -98,11 +98,11 @@ If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NIPS 2024, Spotlight</div><img src='images/paper_mecd_teaser.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<font size="3.5">
-  <b><span style="color:#4169e1;">[NIPS 2024, Spotlight]</span> MECD: Unlocking Multi-Event Causal Discovery in Video Reasoning</b>
-</font>
+<font size="3.5"><b>MECD: Unlocking Multi-Event Causal Discovery in Video Reasoning</b></font>
 
 <p style="margin: -1px 0;"><a href="https://tychen-sjtu.github.io//" target="_blank">Tieyuan Chen*</a>, <a href="https://r00kie-liu.github.io" target="_blank">Huabin Liu*</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=TTw8ZGcAAAAJ" target="_blank">Tianyao He</a>, <span style="font-weight: bold;"><u>Yihang Chen</u></span>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=oOskImcAAAAJ" target="_blank">Chaofan Gan</a>, et. al</p>
+
+<em>Neural Information Processing Systems (<b>NeurIPS</b>), 2024</em>
 
 [**Arxiv**](https://arxiv.org/pdf/2409.17647) | [**Github**](https://github.com/tychen-SJTU/MECD-Benchmark)
 </div>
