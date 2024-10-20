@@ -103,10 +103,10 @@ If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>
 - *2017.09 - 2021.06*, Undergraduate, Electronic Information Engineering (English Intensive). Dalian University of Technology.
 
 # ✏️ Publications
- - <small>**<u>Y. Chen</u>**, Q. Wu, M. Li, W. Lin, M. Harandi, J. Cai, "Fast Feedforward 3D Gaussian Splatting Compression", ARXIV 2024, preprint.</small>
- - <small>T. Chen, H. Liu, T. He, **<u>Y. Chen</u>**, C. Gan, et al, "MECD: Unlocking Multi-Event Causal Discovery in Video Reasoning", NIPS 2024, Spotlight.</small>
- - <small>**<u>Y. Chen</u>**, Q. Wu, W. Lin, M. Harandi, J. Cai, "HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression", ECCV 2024.</small>
- - <small>**<u>Y. Chen</u>**, Q. Wu, M. Harandi, J. Cai, "How Far Can We Compress Instant-NGP-Based NeRF?", CVPR 2024.</small>
- - <small>Z. Xie, Z. Ni, W. Yang, Yuang Zhang, **<u>Y. Chen</u>**, Yang Zhang, X. Ma, "A Robust Online Multi-Camera People Tracking System With Geometric Consistency and State-aware Re-ID Correction", CVPR workshop 2024.</small>
- - <small>S. Liu, W. Lin, **<u>Y. Chen</u>**, Y. Zhang, W. Dai, J. See, H. Xiong, "A Unified Framework for Jointly Compressing Visual and Semantic Data", ACM Trans. Multimedia Computing, Communications, and Applications, 2024.</small>
- - <small>**<u>Y. Chen</u>**, W. Dong, Y. Xie, "A dual realization of Chua’s chaotic oscillator using a current-controlled nonlinear resistor." 2021 IEEE 3rd International Conference on Circuits and Systems (ICCS). IEEE, 2021. [[Paper](https://ieeexplore.ieee.org/abstract/document/9697183)] (*This is my very first published paper. Most sincere appreciations to [Prof. Weijie Dong](http://faculty.dlut.edu.cn/0912345/zh_CN/index.htm)*'s guidance to this paper.)</small>
+- <small>**<u>Y. Chen</u>**, Q. Wu, M. Li, W. Lin, M. Harandi, J. Cai, "Fast Feedforward 3D Gaussian Splatting Compression", ARXIV 2024, preprint.</small>
+- <small>T. Chen, H. Liu, T. He, **<u>Y. Chen</u>**, C. Gan, et al, "MECD: Unlocking Multi-Event Causal Discovery in Video Reasoning", NIPS 2024, Spotlight.</small>
+- <small>**<u>Y. Chen</u>**, Q. Wu, W. Lin, M. Harandi, J. Cai, "HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression", ECCV 2024.</small>
+- <small>**<u>Y. Chen</u>**, Q. Wu, M. Harandi, J. Cai, "How Far Can We Compress Instant-NGP-Based NeRF?", CVPR 2024.</small>
+- <small>Z. Xie, Z. Ni, W. Yang, Yuang Zhang, **<u>Y. Chen</u>**, Yang Zhang, X. Ma, "A Robust Online Multi-Camera People Tracking System With Geometric Consistency and State-aware Re-ID Correction", CVPR workshop 2024.</small>
+- <small>S. Liu, W. Lin, **<u>Y. Chen</u>**, Y. Zhang, W. Dai, J. See, H. Xiong, "A Unified Framework for Jointly Compressing Visual and Semantic Data", ACM Trans. Multimedia Computing, Communications, and Applications, 2024.</small>
+- <small>**<u>Y. Chen</u>**, W. Dong, Y. Xie, "A dual realization of Chua’s chaotic oscillator using a current-controlled nonlinear resistor." 2021 IEEE 3rd International Conference on Circuits and Systems (ICCS). IEEE, 2021. [[Paper](https://ieeexplore.ieee.org/abstract/document/9697183)] (*This is my very first published paper. Most sincere appreciations to [Prof. Weijie Dong](http://faculty.dlut.edu.cn/0912345/zh_CN/index.htm)*'s guidance to this paper.)</small>
