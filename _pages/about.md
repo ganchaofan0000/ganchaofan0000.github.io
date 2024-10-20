@@ -99,7 +99,7 @@ If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>
 </div>
 
 
-# 📖 Educations
+# 🎓 Educations
 - *2021.09 - present*, PhD Candidate (Joint), Information and Communication Engineering. Shanghai Jiao Tong University. 
 - *2021.09 - present*, PhD Candidate (Joint), Electrical and Computer Systems Engineering. Monash University. 
 - *2017.09 - 2021.06*, Undergraduate, Electronic Information Engineering (English Intensive). Dalian University of Technology.
