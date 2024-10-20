@@ -204,6 +204,9 @@
       {% if author.googlescholar %}
         <a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i></a>
       {% endif %}
+      {% if author.resume %}
+        <a href="{{ author.resume }}"><i class="fas fa-fw fa-file-pdf"></i></a>
+      {% endif %}
       {% if author.pubmed %}
         <a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i></a>
       {% endif %}
