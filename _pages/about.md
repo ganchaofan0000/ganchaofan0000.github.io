@@ -45,7 +45,7 @@ If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>
 <em><b>ARXIV</b> 2024, preprint</em>
 
 [**Arxiv**](https://arxiv.org/pdf/2410.08017) | [**Project**](https://yihangchen-ee.github.io/project_fcgs/) | [**Github**](https://github.com/YihangChen-ee/FCGS)
-- **Compress existing 3DGS rapidly in seconds without optimization!** 
+- **Compress existing 3DGS rapidly in seconds without per-scene optimization!** 
 </div>
 </div>
 
