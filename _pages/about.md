@@ -102,7 +102,7 @@ If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>
 
 <p style="margin: -1px 0;"><a href="https://tychen-sjtu.github.io//" target="_blank">Tieyuan Chen*</a>, <a href="https://r00kie-liu.github.io" target="_blank">Huabin Liu*</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=TTw8ZGcAAAAJ" target="_blank">Tianyao He</a>, <span style="font-weight: bold;"><u>Yihang Chen</u></span>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=oOskImcAAAAJ" target="_blank">Chaofan Gan</a>, et. al</p>
 
-<em>Neural Information Processing Systems (<b>NeurIPS</b>), 2024</em>
+<em>Neural Information Processing Systems (<b>NeurIPS</b>), <b><span style="color:#e74c3c">Spotlight</span></b>, 2024</em>
 
 [**Arxiv**](https://arxiv.org/pdf/2409.17647) | [**Github**](https://github.com/tychen-SJTU/MECD-Benchmark)
 </div>
