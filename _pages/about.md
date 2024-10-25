@@ -59,7 +59,7 @@ If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>
 
 <em>European Conference on Computer Vision (<b>ECCV</b>), 2024</em>
 
-[**Paper**](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01178.pdf) | [**Arxiv**](https://arxiv.org/pdf/2403.145301) | [**Project**](https://yihangchen-ee.github.io/project_hac/) | [**Github**](https://github.com/YihangChen-ee/HAC)
+[**Paper**](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01178.pdf) | [**Arxiv**](https://arxiv.org/pdf/2403.14530) | [**Project**](https://yihangchen-ee.github.io/project_hac/) | [**Github**](https://github.com/YihangChen-ee/HAC)
 - **Compress 3D Gaussian Splatting for 75X without fidelity drop!** 
 </div>
 </div>
