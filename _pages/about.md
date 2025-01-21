@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
- 
+
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
 {% else %}
@@ -44,7 +44,7 @@ If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>
 
 <em><b>ARXIV</b> 2025, under review</em>
 
-[**Arxiv**](https://arxiv.org/pdf/xxxxx) | [**Project**](https://yihangchen-ee.github.io/project_hac++/) | [**Github**](https://github.com/YihangChen-ee/HAC-plus)
+[**Arxiv**](https://github.com/YihangChen-ee/HAC-plus/blob/main/HAC%2B%2B_Towards_100X_Compression_of_3D_Gaussian_Splatting.pdf) | [**Project**](https://yihangchen-ee.github.io/project_hac++/) | [**Github**](https://github.com/YihangChen-ee/HAC-plus)
 - **HAC++ is an enhanced compression method over HAC!** 
 </div>
 </div>
