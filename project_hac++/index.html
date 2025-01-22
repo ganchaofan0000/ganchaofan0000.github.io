@@ -344,7 +344,6 @@
                       <div class="bal-afterPosition afterLabel">
                         Ours
                         <br>25.89dB / 5.67MB
-                        Ours
                       </div>
                     </div>
 
@@ -354,6 +353,34 @@
                         <div class="bal-beforePosition beforeLabel">
                           Scaffold-GS [Lu 2024]
                           <br>25.77dB / 107.0MB
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="bal-handle" style="left: 50%;">
+                      <span class=" handle-left-arrow"></span>
+                      <span class="handle-right-arrow"></span>
+                    </div>
+
+                  </div>
+
+
+                  <div id="example3" class="bal-container-small">
+
+                    <div class="bal-after">
+                      <img src="./static/images/vis_1_ours.png">
+                      <div class="bal-afterPosition afterLabel">
+                        Ours
+                        <br>25.89dB / 5.67MB
+                      </div>
+                    </div>
+
+                    <div class="bal-before" style="width: 50%;">
+                      <div class="bal-before-inset" style="width: 539px;">
+                        <img src="./static/images/vis_1_hac.png">
+                        <div class="bal-beforePosition beforeLabel">
+                          HAC [Chen 2024]
+                          <br>25.88dB / 9.26MB
                         </div>
                       </div>
                     </div>
@@ -426,6 +453,32 @@
                   </div>
 
                 </div>
+
+                <div id="example6" class="bal-container-small">
+                  <div class="bal-after">
+                    <img src="./static/images/vis_2_ours.png">
+                    <div class="bal-afterPosition afterLabel" style="z-index:1;">
+                      Ours
+                      <br>29.63dB / 3.40MB
+                    </div>
+                  </div>
+
+                  <div class="bal-before" style="width:56.77179962894249%;">
+                    <div class="bal-before-inset" style="width: 628px;">
+                      <img src="./static/images/vis_2_hac.png">
+                      <div class="bal-beforePosition beforeLabel">
+                          HAC [Chen 2024]
+                        <br>29.53dB / 5.55MB
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bal-handle" style="left:56.77179962894249%;">
+                    <span class=" handle-left-arrow"></span>
+                    <span class="handle-right-arrow"></span>
+                  </div>
+
+                </div>
               </div>
             </div>
           </div>
@@ -443,10 +496,16 @@
     id: '#example2'
   });
   new BeforeAfter({
+    id: '#example3'
+  });
+  new BeforeAfter({
     id: '#example4'
   });
   new BeforeAfter({
     id: '#example5'
+  });
+  new BeforeAfter({
+    id: '#example6'
   });
 
 </script>
