@@ -44,7 +44,7 @@ If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>
 
 <em><b>ARXIV</b> 2025, under review</em>
 
-[**Arxiv**](https://github.com/YihangChen-ee/HAC-plus/blob/main/HAC%2B%2B_Towards_100X_Compression_of_3D_Gaussian_Splatting.pdf) | [**Project**](https://yihangchen-ee.github.io/project_hac++/) | [**Github**](https://github.com/YihangChen-ee/HAC-plus)
+[**Arxiv**](https://arxiv.org/pdf/2501.12255) | [**Project**](https://yihangchen-ee.github.io/project_hac++/) | [**Github**](https://github.com/YihangChen-ee/HAC-plus)
 - **HAC++ is an enhanced compression method over HAC!** 
 </div>
 </div>
