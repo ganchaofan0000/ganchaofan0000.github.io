@@ -39,7 +39,7 @@ If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>
 
 # 📝 Selected Projects
 
-## 📦 Compression
+## 📦 3D Representation & Compression
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ARXIV 2025, under review</div><img src='images/paper_hac++_teaser.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
