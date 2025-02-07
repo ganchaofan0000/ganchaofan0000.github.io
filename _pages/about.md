@@ -32,6 +32,7 @@ If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>
 
 
 # 🔥 News
+- *2025*: &nbsp;🎉🎉 1 ICLR is accepted! 
 - *2024*: &nbsp;🎉🎉 I will attend CVPR conference in Seattle in June. Looking forward to seeing old/new friends! 
 - *2024*: &nbsp;🎉🎉 1 CVPR, 1 ACM TOMM, 1 ECCV, 1 NIPS are accepted! 
 
