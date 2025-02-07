@@ -57,7 +57,7 @@ If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>
 
 <p style="margin: -1px 0;"><span style="font-weight: bold;"><u>Yihang Chen</u></span>, <a href="https://qianyiwu.github.io" target="_blank">Qianyi Wu</a>, <a href="https://scholar.google.com/citations?user=fAIEYrEAAAAJ&hl=zh-CN&oi=ao" target="_blank">Mengyao Li</a>, <a href="https://weiyaolin.github.io" target="_blank">Weiyao Lin</a>, <a href="https://sites.google.com/site/mehrtashharandi/" target="_blank">Mehrtash Harandi</a>, <a href="http://jianfei-cai.github.io" target="_blank">Jianfei Cai</a></p>
 
-<em>The Thirteenth International Conference on Learning Representations (<b>ICLR</b>), 2025</em>
+<em>International Conference on Learning Representations (<b>ICLR</b>), 2025</em>
 
 [**Arxiv**](https://arxiv.org/pdf/2410.08017) | [**Project**](https://yihangchen-ee.github.io/project_fcgs/) | [**Github**](https://github.com/YihangChen-ee/FCGS)
 - **Compress existing 3DGS rapidly in seconds without per-scene optimization!** 
