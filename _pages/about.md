@@ -27,8 +27,8 @@ If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>
 
 
 # 🎯 Research Interests
-- **3D scene reconstruction/Volume rendering**: Neural Radiance Field (NeRF), 3D Gaussian Splatting (3DGS), _et al._ 
-- **Compression techniques**: 3D Representation Compression, Image/Video Compression, _et al._
+- **3D Scene Reconstruction/Volume Rendering**: Neural Radiance Field (NeRF), 3D Gaussian Splatting (3DGS), _et al._ 
+- **Compression Techniques**: 3D Representation Compression, Image/Video Compression, _et al._
 
 
 # 🔥 News
