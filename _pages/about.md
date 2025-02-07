@@ -26,6 +26,11 @@ I am also happy to share my good friend Qianyi Wu's fantastic works [here](https
 If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>*.
 
 
+# 🎯 Research Interests
+- **3D scene reconstruction/Volume rendering**: Neural Radiance Field (NeRF), 3D Gaussian Splatting (3DGS), _et al._ 
+- **Compression techniques**: 3D Representation Compression, Image/Video Compression, _et al._
+
+
 # 🔥 News
 - *2024*: &nbsp;🎉🎉 I will attend CVPR conference in Seattle in June. Looking forward to seeing old/new friends! 
 - *2024*: &nbsp;🎉🎉 1 CVPR, 1 ACM TOMM, 1 ECCV, 1 NIPS are accepted! 
