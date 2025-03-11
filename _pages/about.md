@@ -80,7 +80,7 @@ If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>
 
 <em>International Conference on Learning Representations (<b>ICLR</b>), 2025</em>
 
-[**Arxiv**](https://arxiv.org/pdf/2410.08017) | [**Project**](https://yihangchen-ee.github.io/project_fcgs/) | [**Github**](https://github.com/YihangChen-ee/FCGS)
+[**Paper**](https://openreview.net/pdf?id=DCandSZ2F1) |[**Arxiv**](https://arxiv.org/pdf/2410.08017) | [**Project**](https://yihangchen-ee.github.io/project_fcgs/) | [**Github**](https://github.com/YihangChen-ee/FCGS)
 - **Compress existing 3DGS rapidly in seconds without per-scene optimization!** 
 </div>
 </div>
