@@ -41,7 +41,7 @@ If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>
 
 ## 📦 3D Representation & Compression
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ARXIV 2025, preprint</div><img src='images/paper_hac++_teaser.png' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ARXIV 2025, preprint</div><img src='images/paper_pcgs_teaser.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <font size="3.5"><b>PCGS: Progressive Compression of 3D Gaussian Splatting</b></font>
