@@ -41,14 +41,29 @@ If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>
 
 ## 📦 3D Representation & Compression
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ARXIV 2025, under review</div><img src='images/paper_hac++_teaser.png' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ARXIV 2025, preprint</div><img src='images/paper_hac++_teaser.png' alt="sym" width="90%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<font size="3.5"><b>PCGS: Progressive Compression of 3D Gaussian Splatting</b></font>
+
+<p style="margin: -1px 0;"><span style="font-weight: bold;"><u>Yihang Chen</u></span>*, <a href="https://scholar.google.com/citations?user=fAIEYrEAAAAJ&hl=zh-CN&oi=ao" target="_blank">Mengyao Li</a>*, <a href="https://qianyiwu.github.io" target="_blank">Qianyi Wu</a>, <a href="https://weiyaolin.github.io" target="_blank">Weiyao Lin</a>, <a href="https://sites.google.com/site/mehrtashharandi/" target="_blank">Mehrtash Harandi</a>, <a href="http://jianfei-cai.github.io" target="_blank">Jianfei Cai</a></p>
+
+<em><b>ARXIV</b> 2025, preprint</em>
+
+[**Arxiv**](https://arxiv.org/pdf/xxxx.xxxxx) | [**Project**](https://yihangchen-ee.github.io/project_pcgs/) | [**Github**](https://github.com/YihangChen-ee/PCGS)
+- **PCGS provides a progressive compression solution for on-demand applications such as dynamic bandwidth and diversion storage conditions.** 
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ARXIV 2025, preprint</div><img src='images/paper_hac++_teaser.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <font size="3.5"><b>HAC++: Towards 100X Compression of 3D Gaussian Splatting</b></font>
 
 <p style="margin: -1px 0;"><span style="font-weight: bold;"><u>Yihang Chen</u></span>, <a href="https://qianyiwu.github.io" target="_blank">Qianyi Wu</a>, <a href="https://weiyaolin.github.io" target="_blank">Weiyao Lin</a>, <a href="https://sites.google.com/site/mehrtashharandi/" target="_blank">Mehrtash Harandi</a>, <a href="http://jianfei-cai.github.io" target="_blank">Jianfei Cai</a></p>
 
-<em><b>ARXIV</b> 2025, under review</em>
+<em><b>ARXIV</b> 2025, preprint</em>
 
 [**Arxiv**](https://arxiv.org/pdf/2501.12255) | [**Project**](https://yihangchen-ee.github.io/project_hac++/) | [**Github**](https://github.com/YihangChen-ee/HAC-plus)
 - **HAC++ is an enhanced compression method over HAC!** 
