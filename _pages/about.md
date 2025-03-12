@@ -50,7 +50,7 @@ If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>
 
 <em><b>ARXIV</b> 2025, preprint</em>
 
-[**Arxiv**](https://arxiv.org/pdf/xxxx.xxxxx) | [**Project**](https://yihangchen-ee.github.io/project_pcgs/) | [**Github**](https://github.com/YihangChen-ee/PCGS)
+[**Arxiv**](https://arxiv.org/pdf/2503.08511) | [**Project**](https://yihangchen-ee.github.io/project_pcgs/) | [**Github**](https://github.com/YihangChen-ee/PCGS)
 - **PCGS provides a progressive compression solution for on-demand applications such as dynamic bandwidth and diversion storage conditions.** 
 </div>
 </div>
