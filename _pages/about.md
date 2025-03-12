@@ -51,7 +51,8 @@ If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>
 <em><b>ARXIV</b> 2025, preprint</em>
 
 [**Arxiv**](https://arxiv.org/pdf/2503.08511) | [**Project**](https://yihangchen-ee.github.io/project_pcgs/) | [**Github**](https://github.com/YihangChen-ee/PCGS)
-- **PCGS provides a progressive compression solution for on-demand applications such as dynamic bandwidth and diversion storage conditions.** 
+- **PCGS provides a progressive compression solution for on-demand applications.** 
+- **It enables reuse of existing bitstreams for enhenced fidelity when dynamic bandwidth or diversion storage occurs.** 
 </div>
 </div>
 
