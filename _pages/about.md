@@ -32,8 +32,10 @@ If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>
 
 
 # 🔥 News
+- *2025*: &nbsp;🔥🔥 I will join NVIDIA in San Jose, CA as a Research Intern in 2025 Summer! See you there!  
+- *2025*: &nbsp;✈️✈️ I will attend ICLR conference in Singapore in April. Looking forward to seeing old/new friends! 
 - *2025*: &nbsp;🎉🎉 1 ICLR is accepted! 
-- *2024*: &nbsp;🎉🎉 I will attend CVPR conference in Seattle in June. Looking forward to seeing old/new friends! 
+- *2024*: &nbsp;✈️✈️ I will attend CVPR conference in Seattle in June. Looking forward to seeing old/new friends! 
 - *2024*: &nbsp;🎉🎉 1 CVPR, 1 ACM TOMM, 1 ECCV, 1 NIPS are accepted! 
 
 
