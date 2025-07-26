@@ -66,7 +66,7 @@ If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>
 
 <p style="margin: -1px 0;"><span style="font-weight: bold;"><u>Yihang Chen</u></span>, <a href="https://qianyiwu.github.io" target="_blank">Qianyi Wu</a>, <a href="https://weiyaolin.github.io" target="_blank">Weiyao Lin</a>, <a href="https://sites.google.com/site/mehrtashharandi/" target="_blank">Mehrtash Harandi</a>, <a href="http://jianfei-cai.github.io" target="_blank">Jianfei Cai</a></p>
 
-<em>IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI<b>)</em>
+<em>IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI</b>)</em>
 
 [**Arxiv**](https://arxiv.org/pdf/2501.12255) | [**Project**](https://yihangchen-ee.github.io/project_hac++/) | [**Github**](https://github.com/YihangChen-ee/HAC-plus)
 - **HAC++ is an enhanced compression method over HAC!** 
