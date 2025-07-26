@@ -34,7 +34,7 @@ If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>
 # 🔥 News
 - *2025*: &nbsp;🔥🔥 I will join NVIDIA Research in Santa Clara, CA, as a Research Intern in May 2025! See you there!
 - *2025*: &nbsp;✈️✈️ I will attend ICLR conference in Singapore in April. Looking forward to seeing old/new friends! 
-- *2025*: &nbsp;🎉🎉 1 ICLR is accepted! 
+- *2025*: &nbsp;🎉🎉 1 ICLR, 1 TPAMI is accepted! 
 - *2024*: &nbsp;✈️✈️ I will attend CVPR conference in Seattle in June. Looking forward to seeing old/new friends! 
 - *2024*: &nbsp;🎉🎉 1 CVPR, 1 ACM TOMM, 1 ECCV, 1 NIPS are accepted! 
 
@@ -66,7 +66,7 @@ If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>
 
 <p style="margin: -1px 0;"><span style="font-weight: bold;"><u>Yihang Chen</u></span>, <a href="https://qianyiwu.github.io" target="_blank">Qianyi Wu</a>, <a href="https://weiyaolin.github.io" target="_blank">Weiyao Lin</a>, <a href="https://sites.google.com/site/mehrtashharandi/" target="_blank">Mehrtash Harandi</a>, <a href="http://jianfei-cai.github.io" target="_blank">Jianfei Cai</a></p>
 
-<em><b>ARXIV</b> 2025, preprint</em>
+<em>IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI<b>)</em>
 
 [**Arxiv**](https://arxiv.org/pdf/2501.12255) | [**Project**](https://yihangchen-ee.github.io/project_hac++/) | [**Github**](https://github.com/YihangChen-ee/HAC-plus)
 - **HAC++ is an enhanced compression method over HAC!** 
@@ -156,7 +156,7 @@ If you are interested in my work, please contact me via *<yhchen.ee@sjtu.edu.cn>
 
 # 📖 Publications
 - <small>**<u>Y. Chen*</u>**, M. Li*, Q. Wu, W. Lin, M. Harandi, J. Cai, "PCGS: Progressive Compression of 3D Gaussian Splatting", ARXIV 2025.</small>
-- <small>**<u>Y. Chen</u>**, Q. Wu, W. Lin, M. Harandi, J. Cai, "HAC++: Towards 100X Compression of 3D Gaussian Splatting", ARXIV 2025.</small>
+- <small>**<u>Y. Chen</u>**, Q. Wu, W. Lin, M. Harandi, J. Cai, "HAC++: Towards 100X Compression of 3D Gaussian Splatting", IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2025.</small>
 - <small>T. Chen, H. Liu, Y. Wang, **<u>Y. Chen</u>**, T. He, et al, "MECD+: Unlocking Event-Level Causal Graph Discovery for Video Reasoning", ARXIV 2025.</small>
 - <small>**<u>Y. Chen</u>**, Q. Wu, M. Li, W. Lin, M. Harandi, J. Cai, "Fast Feedforward 3D Gaussian Splatting Compression", ICLR 2025.</small>
 - <small>T. Chen, H. Liu, T. He, **<u>Y. Chen</u>**, C. Gan, et al, "MECD: Unlocking Multi-Event Causal Discovery in Video Reasoning", NIPS 2024, Spotlight.</small>
