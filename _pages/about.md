@@ -21,7 +21,7 @@ I am currently a joint Ph.D. candidate of **[Shanghai Jiao Tong University](http
 working with [Prof. Weiyao Lin](https://weiyaolin.github.io) and [Prof. Mehrtash Harandi](https://sites.google.com/site/mehrtashharandi/).
 Before that, I spent 4 wonderful years studying at **[Huazhong University of Science and Technology](https://www.dlut.edu.cn)** as an undergraduate student since 2018 (top 5%).
 My research interests lie in visual generation, video understanding, and noise learning, with a particular focus on Diffusion Transformers (DiTs).
-I am currently exploring **MAs-driven visual generation in DiTs**, aiming to understand how Massive Activations(MAs) influence synthesis quality in DiTs. Here is my [CV/Resume](https://ganchaofan0000-ee.github.io/CV_Chaofan_Gan-SJTU.pdf).
+I am currently exploring **MAs-driven visual generation in DiTs**, aiming to understand how Massive Activations(MAs) influence synthesis quality in DiTs. Here is my [CV/Resume](https://ganchaofan0000.github.io/CV_Chaofan_Gan-SJTU.pdf).
 
 If you are interested in my work, please contact me via *<ganchaofan@sjtu.edu.cn>*.
 

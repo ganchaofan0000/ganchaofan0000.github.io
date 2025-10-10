@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Chaofan Gan (甘超凡)"
 description              : "Joint PhD candidate of SJTU-Monash"
-repository               : "ganchaofan0000-ee.github.io"
+repository               : "ganchaofan0000.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -25,7 +25,7 @@ author:
   avatar           : "images/chaofan.png"
   bio              : "Pronoun - he/him"
   location         :
-  resume           : "https://ganchaofan0000-ee.github.io/CV_Chaofan_Gan-SJTU.pdf"
+  resume           : "https://ganchaofan0000.github.io/CV_Chaofan_Gan-SJTU.pdf"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=oOskImcAAAAJ&hl=en"
