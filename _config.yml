@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Yihang Chen (陈一航)"
+title                    : "Chaofan Gan (甘超凡)"
 description              : "Joint PhD candidate of SJTU-Monash"
-repository               : "yihangchen-ee.github.io"
+repository               : "ganchaofan0000-ee.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,15 +21,15 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Yihang Chen (陈一航)"
+  name             : "Chaofan Gan (甘超凡)"
   avatar           : "images/me.png"
   bio              : "Pronoun - he/him"
   location         :
-  resume           : "https://yihangchen-ee.github.io/CV_Yihang_Chen.pdf"
+  resume           : "https://ganchaofan0000-ee.github.io/CV_Chaofan_Gan-SJTU.pdf"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=05KWkUAAAAAJ&hl=en"
-  email            : "yhchen.ee@sjtu.edu.cn"
+  googlescholar    : "https://scholar.google.com/citations?user=oOskImcAAAAJ&hl=en"
+  email            : "ganchaofan@sjtu.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -38,7 +38,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "YihangChen-ee"
+  github           : "ganchaofan0000"
   google_plus      :
   keybase          :
   instagram        :
