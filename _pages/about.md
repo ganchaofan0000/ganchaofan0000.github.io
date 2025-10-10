@@ -21,22 +21,22 @@ I am currently a joint Ph.D. candidate of **[Shanghai Jiao Tong University](http
 working with [Prof. Weiyao Lin](https://weiyaolin.github.io) and [Prof. Mehrtash Harandi](https://sites.google.com/site/mehrtashharandi/).
 Before that, I spent 4 wonderful years studying at **[Huazhong University of Science and Technology](https://www.dlut.edu.cn)** as an undergraduate student since 2018 (top 5%).
 My research interests lie in visual generation, video understanding, and noise learning, with a particular focus on Diffusion Transformers (DiTs).
-I am currently exploring **MAs-driven representation and generation in DiTs**, aiming to understand how Massive Activations(MAs) influence feature learning and synthesis quality. Here is my [CV/Resume](https://ganchaofan0000-ee.github.io/CV_Chaofan_Gan-SJTU.pdf).
+I am currently exploring **MAs-driven visual generation in DiTs**, aiming to understand how Massive Activations(MAs) influence synthesis quality in DiTs. Here is my [CV/Resume](https://ganchaofan0000-ee.github.io/CV_Chaofan_Gan-SJTU.pdf).
 
 If you are interested in my work, please contact me via *<ganchaofan@sjtu.edu.cn>*.
 
 
 # 🎯 Research Interests
 - **Diffusion Transformers**: Visual Quality Enhancement for DiTs, Representation Learning with DiTs, _et al._ 
-- **Image/Video Understanding**: Event Causal Discovery, Multimodal Large Models, _et al._ 
+- **Image/Video Understanding**: Video Event Understanding, Multimodal Large Models, _et al._ 
 - **Noise Learning**: Self-supervised Semantics Discovery, _et al._ 
 
 
 # 🔥 News
-- *2025.9*: &nbsp;🎉🎉 1 fist-author NeurIPS is accepted! 
-- *2024.10*: &nbsp;✈️✈️ I will attend ACM MM conference in Melbourne in Oct. Looking forward to seeing old/new friends! 
-- *2024.9*: &nbsp;🎉🎉 1 NeurIPS(Spotlight) is accepted! 
-- *2024.7*: &nbsp;🎉🎉 1 fist-author ACM MM is accepted! 
+- *2025.9*:  &nbsp;🎉🎉 1 fist-author NeurIPS is accepted! 
+- *2024.10*: &nbsp;✈️✈️ I will attend ACMMM conference in Melbourne in Oct. Looking forward to seeing old/new friends! 
+- *2024.9*:  &nbsp;🎉🎉 1 NeurIPS(Spotlight) is accepted! 
+- *2024.7*:  &nbsp;🎉🎉 1 fist-author ACMMM is accepted! 
 
 
 # 📝 Selected Projects
@@ -76,7 +76,7 @@ If you are interested in my work, please contact me via *<ganchaofan@sjtu.edu.cn
 
 ## 📺 Video Understanding
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NIPS 2024, Spotlight</div><img src='images/paper_mecd_teaser.png' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024, Spotlight</div><img src='images/paper_mecd_teaser.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <font size="3.5"><b>MECD: Unlocking Multi-Event Causal Discovery in Video Reasoning</b></font>

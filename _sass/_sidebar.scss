@@ -68,14 +68,20 @@
 /*
    Author profile and links
    ========================================================================== */
-.profile_box{
-  @include breakpoint($large) {
-    display: block;
-  }
+// .profile_box{
+//   @include breakpoint($large) {
+//     display: block;
+//   }
+//   display: flex;
+//   justify-content: flex-start;
+//   align-content: flex-start;
+//   align-items: center;
+// }
+
+.profile_box {
   display: flex;
-  justify-content: flex-start;
-  align-content: flex-start;
-  align-items: center;
+  flex-direction: column; /* 关键修改：将子元素从上到下垂直排列 */
+  align-items: center;    /* 关键修改：让所有子元素在水平方向上居中 */
 }
 
 .author__avatar {
