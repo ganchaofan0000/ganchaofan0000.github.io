@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Detail Guidance for Diffusion Transformers">
+  <meta name="keywords" content="Detail Guidance">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Detail Guidance for Diffusion Transformers</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  <script src="./static/js/script.js"></script>
+
+</head>
+
+<body>
+
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://ganchaofan0000.github.io/">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          Related Researches
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://ganchaofan0000.github.io/project_dg/">
+            Detail Guidance for DiTs: DG
+          </a>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Massive Activations are the Key to Local Detail Synthesis in Diffusion Transformers</h1>
+
+          <div class="is-size-4 publication-authors">
+                <span class="univerity-block" style="color: rgb(150, 0, 0);">Training-free Detail Guidance(DG) for DiTs.</span>
+          </div>
+          <div class="is-size-4 publication-authors">
+            <span class="univerity-block" style="color: rgb(150, 0, 0);">CFG primarily for prompt following; Our DG for local detail guidance. </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://ganchaofan0000.github.io/">Chaofan Gan</a>,</span>
+            <!-- <span class="author-block">
+              <a href="https://qianyiwu.github.io/">Qianyi Wu</a>,</span>
+            <span class="author-block">
+              <a href="https://weiyaolin.github.io/">Weiyao Lin</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://sites.google.com/site/mehrtashharandi/">Mehrtash Harandi</a>,
+            </span>
+            <span class="author-block">
+              <a href="http://jianfei-cai.github.io/">Jianfei Cai</a>
+            </span> -->
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Shanghai Jiao Tong University, Monash University</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <!--
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/xxxx.xxxxx.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              -->
+              <span class="link-block">
+                <a href="https://ganchaofan0000.github.io"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-home"></i>
+                  </span>
+                  <span>Home</span>
+                </a>
+              </span>
+              <!-- <span class="link-block">
+                <a href="https://arxiv.org/pdf/2403.14530"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01178.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-paper-plane"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span> -->
+              <!-- Code Link. -->
+              <!-- <span class="link-block">
+                <a href="https://github.com/YihangChen-ee/HAC"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span> -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- <section class="section">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered">
+      <div class="column is-full-width"  align="center">
+        <h2 class="title is-3">Main Performance</h2>
+        <img src="./static/images/qualititave_curve.png"/>
+        <img src="./static/images/quantitative_table.png"/>
+
+      </div>
+    </div>
+
+  </div>
+</section> -->
+
+
+
+<section class="section">
+  <div class="container">
+    <div class="has-text-centered">
+      <h2 class="title is-3">DG versus CFG with SD3</h2>
+      <div class="content has-text-justified">
+      </div>
+
+      <!-- 第一行 -->
+      <div class="columns is-centered">
+
+        <!-- 第 1 列 -->
+        <div class="column">
+          <div class="content">
+            <div id="sd3-e1-cfg" class="bal-container-small">
+              <div class="bal-after">
+                <img src="./static/images/SD3/0_00000016_cfg.png">
+                <div class="bal-afterPosition afterLabel" style="z-index:1;">
+                  CFG
+                </div>
+              </div>
+              <div class="bal-before" style="width:96.4968152866242%;">
+                <div class="bal-before-inset" style="width: 539px;">
+                  <img src="./static/images/SD3/0_00000016_cond.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Baseline
+                  </div>
+                </div>
+              </div>
+              <div class="bal-handle" style="left:96.4968152866242%;">
+                <span class="handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 第 2 列 -->
+        <div class="column">
+          <div class="content">
+            <div id="sd3-e2-cfg" class="bal-container-small">
+              <div class="bal-after">
+                <img src="./static/images/SD3/0_00000018_cfg.png">
+                <div class="bal-afterPosition afterLabel">
+                  CFG
+                </div>
+              </div>
+              <div class="bal-before" style="width: 50%;">
+                <div class="bal-before-inset" style="width: 539px;">
+                  <img src="./static/images/SD3/0_00000018_cond.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Baseline
+                  </div>
+                </div>
+              </div>
+              <div class="bal-handle" style="left: 50%;">
+                <span class="handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 第 3 列 -->
+        <div class="column">
+          <div class="content">
+            <div id="sd3-e3-cfg" class="bal-container-small">
+              <div class="bal-after">
+                <img src="./static/images/SD3/1_00000087_cfg.png">
+                <div class="bal-afterPosition afterLabel" style="z-index:1;">
+                  CFG
+                </div>
+              </div>
+              <div class="bal-before" style="width:62.10191082802548%;">
+                <div class="bal-before-inset" style="width: 539px;">
+                  <img src="./static/images/SD3/1_00000087_cond.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Baseline
+                  </div>
+                </div>
+              </div>
+              <div class="bal-handle" style="left:62.10191082802548%;">
+                <span class="handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 第 4 列 -->
+        <div class="column">
+          <div class="content">
+            <div id="sd3-e4-cfg" class="bal-container-small">
+              <div class="bal-after">
+                <img src="./static/images/SD3/2_00000019_cfg.png">
+                <div class="bal-afterPosition afterLabel">
+                  CFG
+                </div>
+              </div>
+              <div class="bal-before" style="width:56.77179962894249%;">
+                <div class="bal-before-inset" style="width: 628px;">
+                  <img src="./static/images/SD3/2_00000019_cond.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Baseline
+                  </div>
+                </div>
+              </div>
+              <div class="bal-handle" style="left:56.77179962894249%;">
+                <span class="handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 第二行 (复制) -->
+      <div class="columns is-centered">
+
+        <!-- 第 1 列 -->
+        <div class="column">
+          <div class="content">
+            <div id="sd3-e1-dg" class="bal-container-small"> <!-- 注意：为避免ID冲突，最好修改ID -->
+              <div class="bal-after">
+                <img src="./static/images/SD3/0_00000016_dg.png">
+                <div class="bal-afterPosition afterLabel" style="z-index:1;">
+                  DG(Ours)
+                </div>
+              </div>
+              <div class="bal-before" style="width:96.4968152866242%;">
+                <div class="bal-before-inset" style="width: 539px;">
+                  <img src="./static/images/SD3/0_00000016_cond.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Baseline
+                  </div>
+                </div>
+              </div>
+              <div class="bal-handle" style="left:96.4968152866242%;">
+                <span class="handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 第 2 列 -->
+        <div class="column">
+          <div class="content">
+            <div id="sd3-e2-dg" class="bal-container-small"> <!-- 注意：为避免ID冲突，最好修改ID -->
+              <div class="bal-after">
+                <img src="./static/images/SD3/0_00000018_dg.png">
+                <div class="bal-afterPosition afterLabel">
+                  (DG)Ours
+                </div>
+              </div>
+              <div class="bal-before" style="width: 50%;">
+                <div class="bal-before-inset" style="width: 539px;">
+                  <img src="./static/images/SD3/0_00000018_cond.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Baseline
+                  </div>
+                </div>
+              </div>
+              <div class="bal-handle" style="left: 50%;">
+                <span class="handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 第 3 列 -->
+        <div class="column">
+          <div class="content">
+            <div id="sd3-e3-dg" class="bal-container-small"> <!-- 注意：为避免ID冲突，最好修改ID -->
+              <div class="bal-after">
+                <img src="./static/images/SD3/1_00000087_dg.png">
+                <div class="bal-afterPosition afterLabel" style="z-index:1;">
+                  DG(Ours)
+                </div>
+              </div>
+              <div class="bal-before" style="width:62.10191082802548%;">
+                <div class="bal-before-inset" style="width: 539px;">
+                  <img src="./static/images/SD3/1_00000087_cond.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Baseline
+                  </div>
+                </div>
+              </div>
+              <div class="bal-handle" style="left:62.10191082802548%;">
+                <span class="handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 第 4 列 -->
+        <div class="column">
+          <div class="content">
+            <div id="sd3-e4-dg" class="bal-container-small"> <!-- 注意：为避免ID冲突，最好修改ID -->
+              <div class="bal-after">
+                <img src="./static/images/SD3/2_00000019_dg.png">
+                <div class="bal-afterPosition afterLabel">
+                  (DG)Ours
+                </div>
+              </div>
+              <div class="bal-before" style="width:56.77179962894249%;">
+                <div class="bal-before-inset" style="width: 628px;">
+                  <img src="./static/images/SD3/2_00000019_cond.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Baseline
+                  </div>
+                </div>
+              </div>
+              <div class="bal-handle" style="left:56.77179962894249%;">
+                <span class="handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<script>
+  new BeforeAfter({
+    id: '#sd3-e1-cfg'
+  });
+  new BeforeAfter({
+    id: '#sd3-e2-cfg'
+  });
+  new BeforeAfter({
+    id: '#sd3-e3-cfg'
+  });
+  new BeforeAfter({
+    id: '#sd3-e4-cfg'
+  });
+  new BeforeAfter({
+    id: '#sd3-e1-dg'
+  });
+  new BeforeAfter({
+    id: '#sd3-e2-dg'
+  });
+  new BeforeAfter({
+    id: '#sd3-e3-dg'
+  });
+  new BeforeAfter({
+    id: '#sd3-e4-dg'
+  });
+
+</script>
+
+<section class="section">
+  <div class="container">
+    <div class="has-text-centered">
+      <h2 class="title is-3">DG versus CFG with SD3-5l</h2>
+      <div class="content has-text-justified">
+      </div>
+
+      <!-- 第一行 -->
+      <div class="columns is-centered">
+
+        <!-- 第 1 列 -->
+        <div class="column">
+          <div class="content">
+            <div id="sd3-5l-e1-cfg" class="bal-container-small">
+              <div class="bal-after">
+                <img src="./static/images/SD3-5l/0_00000006_cfg.png">
+                <div class="bal-afterPosition afterLabel" style="z-index:1;">
+                  CFG
+                </div>
+              </div>
+              <div class="bal-before" style="width:96.4968152866242%;">
+                <div class="bal-before-inset" style="width: 539px;">
+                  <img src="./static/images/SD3-5l/0_00000006_cond.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Baseline
+                  </div>
+                </div>
+              </div>
+              <div class="bal-handle" style="left:96.4968152866242%;">
+                <span class="handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 第 2 列 -->
+        <div class="column">
+          <div class="content">
+            <div id="sd3-5l-e2-cfg" class="bal-container-small">
+              <div class="bal-after">
+                <img src="./static/images/SD3-5l/0_00000013_cfg.png">
+                <div class="bal-afterPosition afterLabel">
+                  CFG
+                </div>
+              </div>
+              <div class="bal-before" style="width: 50%;">
+                <div class="bal-before-inset" style="width: 539px;">
+                  <img src="./static/images/SD3-5l/0_00000013_cond.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Baseline
+                  </div>
+                </div>
+              </div>
+              <div class="bal-handle" style="left: 50%;">
+                <span class="handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 第 3 列 -->
+        <div class="column">
+          <div class="content">
+            <div id="sd3-5l-e3-cfg" class="bal-container-small">
+              <div class="bal-after">
+                <img src="./static/images/SD3-5l/0_00000026_cfg.png">
+                <div class="bal-afterPosition afterLabel" style="z-index:1;">
+                  CFG
+                </div>
+              </div>
+              <div class="bal-before" style="width:62.10191082802548%;">
+                <div class="bal-before-inset" style="width: 539px;">
+                  <img src="./static/images/SD3-5l/0_00000026_cond.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Baseline
+                  </div>
+                </div>
+              </div>
+              <div class="bal-handle" style="left:62.10191082802548%;">
+                <span class="handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 第 4 列 -->
+        <div class="column">
+          <div class="content">
+            <div id="sd3-5l-e4-cfg" class="bal-container-small">
+              <div class="bal-after">
+                <img src="./static/images/SD3-5l/0_00000086_cfg.png">
+                <div class="bal-afterPosition afterLabel">
+                  CFG
+                </div>
+              </div>
+              <div class="bal-before" style="width:56.77179962894249%;">
+                <div class="bal-before-inset" style="width: 628px;">
+                  <img src="./static/images/SD3-5l/0_00000086_cond.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Baseline
+                  </div>
+                </div>
+              </div>
+              <div class="bal-handle" style="left:56.77179962894249%;">
+                <span class="handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 第二行 (复制) -->
+      <div class="columns is-centered">
+
+        <!-- 第 1 列 -->
+        <div class="column">
+          <div class="content">
+            <div id="sd3-5l-e1-dg" class="bal-container-small"> <!-- 注意：为避免ID冲突，最好修改ID -->
+              <div class="bal-after">
+                <img src="./static/images/SD3-5l/0_00000006_dg.png">
+                <div class="bal-afterPosition afterLabel" style="z-index:1;">
+                  DG(Ours)
+                </div>
+              </div>
+              <div class="bal-before" style="width:96.4968152866242%;">
+                <div class="bal-before-inset" style="width: 539px;">
+                  <img src="./static/images/SD3-5l/0_00000006_cond.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Baseline
+                  </div>
+                </div>
+              </div>
+              <div class="bal-handle" style="left:96.4968152866242%;">
+                <span class="handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 第 2 列 -->
+        <div class="column">
+          <div class="content">
+            <div id="sd3-5l-e2-dg" class="bal-container-small"> <!-- 注意：为避免ID冲突，最好修改ID -->
+              <div class="bal-after">
+                <img src="./static/images/SD3-5l/0_00000013_dg.png">
+                <div class="bal-afterPosition afterLabel">
+                  (DG)Ours
+                </div>
+              </div>
+              <div class="bal-before" style="width: 50%;">
+                <div class="bal-before-inset" style="width: 539px;">
+                  <img src="./static/images/SD3-5l/0_00000013_cond.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Baseline
+                  </div>
+                </div>
+              </div>
+              <div class="bal-handle" style="left: 50%;">
+                <span class="handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 第 3 列 -->
+        <div class="column">
+          <div class="content">
+            <div id="sd3-5l-e3-dg" class="bal-container-small"> <!-- 注意：为避免ID冲突，最好修改ID -->
+              <div class="bal-after">
+                <img src="./static/images/SD3-5l/0_00000026_dg.png">
+                <div class="bal-afterPosition afterLabel" style="z-index:1;">
+                  DG(Ours)
+                </div>
+              </div>
+              <div class="bal-before" style="width:62.10191082802548%;">
+                <div class="bal-before-inset" style="width: 539px;">
+                  <img src="./static/images/SD3-5l/0_00000026_cond.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Baseline
+                  </div>
+                </div>
+              </div>
+              <div class="bal-handle" style="left:62.10191082802548%;">
+                <span class="handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 第 4 列 -->
+        <div class="column">
+          <div class="content">
+            <div id="sd3-5l-e4-dg" class="bal-container-small"> <!-- 注意：为避免ID冲突，最好修改ID -->
+              <div class="bal-after">
+                <img src="./static/images/SD3-5l/0_00000086_dg.png">
+                <div class="bal-afterPosition afterLabel">
+                  (DG)Ours
+                </div>
+              </div>
+              <div class="bal-before" style="width:56.77179962894249%;">
+                <div class="bal-before-inset" style="width: 628px;">
+                  <img src="./static/images/SD3-5l/0_00000086_cond.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Baseline
+                  </div>
+                </div>
+              </div>
+              <div class="bal-handle" style="left:56.77179962894249%;">
+                <span class="handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<script>
+  new BeforeAfter({
+    id: '#sd3-5l-e1-cfg'
+  });
+  new BeforeAfter({
+    id: '#sd3-5l-e2-cfg'
+  });
+  new BeforeAfter({
+    id: '#sd3-5l-e3-cfg'
+  });
+  new BeforeAfter({
+    id: '#sd3-5l-e4-cfg'
+  });
+  new BeforeAfter({
+    id: '#sd3-5l-e1-dg'
+  });
+  new BeforeAfter({
+    id: '#sd3-5l-e2-dg'
+  });
+  new BeforeAfter({
+    id: '#sd3-5l-e3-dg'
+  });
+  new BeforeAfter({
+    id: '#sd3-5l-e4-dg'
+  });
+
+</script>
+
+
+<section class="section">
+  <div class="container">
+    <div class="has-text-centered">
+      <h2 class="title is-3">DG versus CFG with Flux-dev</h2>
+      <div class="content has-text-justified">
+      </div>
+
+      <!-- 第一行 -->
+      <div class="columns is-centered">
+
+        <!-- 第 1 列 -->
+        <div class="column">
+          <div class="content">
+            <div id="Flux-e1-cfg" class="bal-container-small">
+              <div class="bal-after">
+                <img src="./static/images/Flux/0_00000007_cfg.png">
+                <div class="bal-afterPosition afterLabel" style="z-index:1;">
+                  CFG
+                </div>
+              </div>
+              <div class="bal-before" style="width:96.4968152866242%;">
+                <div class="bal-before-inset" style="width: 539px;">
+                  <img src="./static/images/Flux/0_00000007_cond.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Baseline
+                  </div>
+                </div>
+              </div>
+              <div class="bal-handle" style="left:96.4968152866242%;">
+                <span class="handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 第 2 列 -->
+        <div class="column">
+          <div class="content">
+            <div id="Flux-e2-cfg" class="bal-container-small">
+              <div class="bal-after">
+                <img src="./static/images/Flux/0_00000013_cfg.png">
+                <div class="bal-afterPosition afterLabel">
+                  CFG
+                </div>
+              </div>
+              <div class="bal-before" style="width:96.4968152866242%;">
+                <div class="bal-before-inset" style="width: 539px;">
+                  <img src="./static/images/Flux/0_00000013_cond.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Baseline
+                  </div>
+                </div>
+              </div>
+              <div class="bal-handle" style="left:96.4968152866242%;">
+                <span class="handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 第 3 列 -->
+        <div class="column">
+          <div class="content">
+            <div id="Flux-e3-cfg" class="bal-container-small">
+              <div class="bal-after">
+                <img src="./static/images/Flux/0_00000024_cfg.png">
+                <div class="bal-afterPosition afterLabel" style="z-index:1;">
+                  CFG
+                </div>
+              </div>
+              <div class="bal-before" style="width:62.10191082802548%;">
+                <div class="bal-before-inset" style="width: 539px;">
+                  <img src="./static/images/Flux/0_00000024_cond.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Baseline
+                  </div>
+                </div>
+              </div>
+              <div class="bal-handle" style="left:62.10191082802548%;">
+                <span class="handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 第 4 列 -->
+        <div class="column">
+          <div class="content">
+            <div id="Flux-e4-cfg" class="bal-container-small">
+              <div class="bal-after">
+                <img src="./static/images/Flux/0_00000028_cfg.png">
+                <div class="bal-afterPosition afterLabel">
+                  CFG
+                </div>
+              </div>
+              <div class="bal-before" style="width:62.77179962894249%;">
+                <div class="bal-before-inset" style="width: 628px;">
+                  <img src="./static/images/Flux/0_00000028_cond.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Baseline
+                  </div>
+                </div>
+              </div>
+              <div class="bal-handle" style="left:62.77179962894249%;">
+                <span class="handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 第二行 (复制) -->
+      <div class="columns is-centered">
+
+        <!-- 第 1 列 -->
+        <div class="column">
+          <div class="content">
+            <div id="Flux-e1-dg" class="bal-container-small"> <!-- 注意：为避免ID冲突，最好修改ID -->
+              <div class="bal-after">
+                <img src="./static/images/Flux/0_00000007_dg.png">
+                <div class="bal-afterPosition afterLabel" style="z-index:1;">
+                  DG(Ours)
+                </div>
+              </div>
+              <div class="bal-before" style="width:96.4968152866242%;">
+                <div class="bal-before-inset" style="width: 539px;">
+                  <img src="./static/images/Flux/0_00000007_cond.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Baseline
+                  </div>
+                </div>
+              </div>
+              <div class="bal-handle" style="left:96.4968152866242%;">
+                <span class="handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 第 2 列 -->
+        <div class="column">
+          <div class="content">
+            <div id="Flux-e2-dg" class="bal-container-small"> <!-- 注意：为避免ID冲突，最好修改ID -->
+              <div class="bal-after">
+                <img src="./static/images/Flux/0_00000013_dg.png">
+                <div class="bal-afterPosition afterLabel">
+                  (DG)Ours
+                </div>
+              </div>
+              <div class="bal-before" style="width: 50%;">
+                <div class="bal-before-inset" style="width: 539px;">
+                  <img src="./static/images/Flux/0_00000013_cond.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Baseline
+                  </div>
+                </div>
+              </div>
+              <div class="bal-handle" style="left: 50%;">
+                <span class="handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 第 3 列 -->
+        <div class="column">
+          <div class="content">
+            <div id="Flux-e3-dg" class="bal-container-small"> <!-- 注意：为避免ID冲突，最好修改ID -->
+              <div class="bal-after">
+                <img src="./static/images/Flux/0_00000024_dg.png">
+                <div class="bal-afterPosition afterLabel" style="z-index:1;">
+                  DG(Ours)
+                </div>
+              </div>
+              <div class="bal-before" style="width:62.10191082802548%;">
+                <div class="bal-before-inset" style="width: 539px;">
+                  <img src="./static/images/Flux/0_00000024_cond.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Baseline
+                  </div>
+                </div>
+              </div>
+              <div class="bal-handle" style="left:62.10191082802548%;">
+                <span class="handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 第 4 列 -->
+        <div class="column">
+          <div class="content">
+            <div id="Flux-e4-dg" class="bal-container-small"> <!-- 注意：为避免ID冲突，最好修改ID -->
+              <div class="bal-after">
+                <img src="./static/images/Flux/0_00000028_dg.png">
+                <div class="bal-afterPosition afterLabel">
+                  (DG)Ours
+                </div>
+              </div>
+              <div class="bal-before" style="width:56.77179962894249%;">
+                <div class="bal-before-inset" style="width: 628px;">
+                  <img src="./static/images/Flux/0_00000028_cond.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Baseline
+                  </div>
+                </div>
+              </div>
+              <div class="bal-handle" style="left:56.77179962894249%;">
+                <span class="handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<script>
+  new BeforeAfter({
+    id: '#Flux-e1-cfg'
+  });
+  new BeforeAfter({
+    id: '#Flux-e2-cfg'
+  });
+  new BeforeAfter({
+    id: '#Flux-e3-cfg'
+  });
+  new BeforeAfter({
+    id: '#Flux-e4-cfg'
+  });
+  new BeforeAfter({
+    id: '#Flux-e1-dg'
+  });
+  new BeforeAfter({
+    id: '#Flux-e2-dg'
+  });
+  new BeforeAfter({
+    id: '#Flux-e3-dg'
+  });
+  new BeforeAfter({
+    id: '#Flux-e4-dg'
+  });
+
+</script>
+
+<!-- <section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+      @inproceedings{hac2024,
+        title={HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression},
+        author={Chen, Yihang and Wu, Qianyi and Lin, Weiyao and Harandi, Mehrtash and Cai, Jianfei},
+        booktitle={European Conference on Computer Vision},
+        year={2024}
+      }
+    </code></pre>
+  </div>
+</section> -->
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="./static/videos/nerfies_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://yihangchen-ee.github.io" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>. The website template is based on <a
+            href="https://github.com/nerfies/nerfies.github.io">nerfies</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+</body>
+
+</html>
