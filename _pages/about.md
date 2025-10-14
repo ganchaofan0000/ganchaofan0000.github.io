@@ -43,7 +43,7 @@ If you are interested in my work, please contact me via *<ganchaofan@sjtu.edu.cn
 
 ## 📦 Diffusion Transformers
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/paper_DG.png' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ARXIV 2025, preprint</div><img src='images/paper_DG.png' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <font size="3.5"><b>Massive Activations are the Key to Local Detail Synthesis in Diffusion Transformers</b></font>
