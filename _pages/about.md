@@ -33,10 +33,10 @@ If you are interested in my work, please contact me via *<ganchaofan@sjtu.edu.cn
 
 
 # 🔥 News
-- *2025.9*:  &nbsp;🎉🎉 1 fist-author NeurIPS is accepted! 
+- *2025.9*:  &nbsp;🎉🎉 1 first-author NeurIPS is accepted! 
 - *2024.10*: &nbsp;✈️✈️ I will attend ACMMM conference in Melbourne in Oct. Looking forward to seeing old/new friends! 
 - *2024.9*:  &nbsp;🎉🎉 1 NeurIPS(Spotlight) is accepted! 
-- *2024.7*:  &nbsp;🎉🎉 1 fist-author ACMMM is accepted! 
+- *2024.7*:  &nbsp;🎉🎉 1 first-author ACMMM is accepted! 
 
 
 # 📝 Selected Projects
