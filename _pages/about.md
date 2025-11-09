@@ -52,7 +52,7 @@ If you are interested in my work, please contact me via *<ganchaofan@sjtu.edu.cn
 
 <em>ARXIV 2025, preprint</em>
 
-[**Arxiv**](http://arxiv.org/abs/2510.11538)|[**Project**](https://ganchaofan0000.github.io/project_dg/)
+[**Arxiv**](http://arxiv.org/abs/2510.11538)|[**Project**](https://ganchaofan0000.github.io/project_dg/)|[**Github**](https://github.com/ganchaofan0000/DG)
 - **Massive Activations Drive Fine-Grained Local Detail Synthesis in DiTs.** 
 - **Detail Guidance: Superior Local Detail Fidelity Compared to CFG.** 
 </div>
@@ -67,7 +67,7 @@ If you are interested in my work, please contact me via *<ganchaofan@sjtu.edu.cn
 
 <em>Neural Information Processing Systems (<b>NeurIPS</b>), 2025</em>
 
-[**Arxiv**](https://arxiv.org/pdf/2505.18584?)
+[**Paper**](https://arxiv.org/pdf/2505.18584?)| [**Github**](https://github.com/ganchaofan0000/DiTF)
 - **Employ Diffusion Transformers as a feature extrator for visual correspondence!** 
 </div>
 </div>
