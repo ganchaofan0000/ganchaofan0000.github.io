@@ -67,7 +67,7 @@ If you are interested in my work, please contact me via *<ganchaofan@sjtu.edu.cn
 
 <em>Neural Information Processing Systems (<b>NeurIPS</b>), 2025</em>
 
-[**Paper**](https://arxiv.org/pdf/2505.18584?)| [**Github**](https://github.com/ganchaofan0000/DiTF)
+[**Paper**](https://arxiv.org/pdf/2505.18584)| [**Github**](https://github.com/ganchaofan0000/DiTF)
 - **Employ Diffusion Transformers as a feature extrator for visual correspondence!** 
 </div>
 </div>
