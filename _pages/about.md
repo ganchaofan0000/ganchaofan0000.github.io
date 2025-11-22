@@ -20,15 +20,14 @@ redirect_from:
 I am currently a joint Ph.D. candidate of **[Shanghai Jiao Tong University](https://www.sjtu.edu.cn)** and **[Monash University](https://www.monash.edu)** from [SEIEE](https://www.seiee.sjtu.edu.cn) since 2022, 
 working with [Prof. Weiyao Lin](https://weiyaolin.github.io) and [Prof. Mehrtash Harandi](https://sites.google.com/site/mehrtashharandi/).
 Before that, I spent 4 wonderful years studying at **[Huazhong University of Science and Technology](https://www.hust.edu.cn/)** as an undergraduate student since 2018 (top 5%).
-My research interests lie in visual generation, video understanding, and noise learning, with a particular focus on Diffusion Transformers (DiTs).
-I am currently exploring **MAs-driven visual generation in DiTs**, aiming to understand how Massive Activations(MAs) influence synthesis quality in DiTs. Here is my [CV/Resume](https://ganchaofan0000.github.io/CV_Chaofan_Gan-SJTU.pdf).
+My research interests lie in visual generation, visual understanding, and noise learning, with a particular focus on Diffusion Transformers (DiTs). Currently, my work centers on building a **Unified Visual Generation and Understanding Model with DiTs**, aiming to overcome the long-standing disconnect between these two tasks and enable them to mutually enhance each other. Here is my [CV/Resume](https://ganchaofan0000.github.io/CV_Chaofan_Gan-SJTU.pdf).
 
 If you are interested in my work, please contact me via *<ganchaofan@sjtu.edu.cn>*.
 
 
 # 🎯 Research Interests
-- **Diffusion Transformers**: Visual Quality Enhancement for DiTs, Representation Learning with DiTs, _et al._ 
-- **Image/Video Understanding**: Video Event Understanding, Multimodal Large Models, _et al._ 
+- **Diffusion Transformers**: Visual Generation and Representation Learning with DiTs, _et al._ 
+- **Image/Video Understanding**: Multimodal Large Models, _et al._ 
 - **Noise Learning**: Self-supervised Semantics Discovery, _et al._ 
 
 
