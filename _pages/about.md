@@ -33,7 +33,7 @@ If you are interested in my work, please contact me via *<ganchaofan@sjtu.edu.cn
 
 # 🔥 News
 - *2026.1*:  &nbsp;🎉🎉 1 first-author ICLR is accepted! 
-- *2025.12*:  &nbsp;🪵🪵 I joined [**Seedance**](https://seed.bytedance.com/en/seedance2_0) team as an intern.
+- *2025.12*:  &nbsp;🪵🪵 I joined [**ByteDance Seedance**](https://seed.bytedance.com/en/seedance2_0) team as an intern.
 - *2025.9*:  &nbsp;🎉🎉 1 first-author NeurIPS is accepted! 
 - *2024.10*: &nbsp;✈️✈️ I will attend ACMMM conference in Melbourne in Oct. Looking forward to seeing old/new friends! 
 - *2024.9*:  &nbsp;🎉🎉 1 NeurIPS(Spotlight) is accepted! 
