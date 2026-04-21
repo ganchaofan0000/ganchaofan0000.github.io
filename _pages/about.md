@@ -32,6 +32,8 @@ If you are interested in my work, please contact me via *<ganchaofan@sjtu.edu.cn
 
 
 # 🔥 News
+- *2026.1*:  &nbsp;🎉🎉 1 first-author ICLR is accepted! 
+- *2025.12*:  &nbsp;🪵🪵 I joined [**Seedance**](https://seed.bytedance.com/en/seedance2_0) team as an intern.
 - *2025.9*:  &nbsp;🎉🎉 1 first-author NeurIPS is accepted! 
 - *2024.10*: &nbsp;✈️✈️ I will attend ACMMM conference in Melbourne in Oct. Looking forward to seeing old/new friends! 
 - *2024.9*:  &nbsp;🎉🎉 1 NeurIPS(Spotlight) is accepted! 
@@ -49,7 +51,7 @@ If you are interested in my work, please contact me via *<ganchaofan@sjtu.edu.cn
 
 <p style="margin: -1px 0;"><span style="font-weight: bold;"><u>Chaofan Gan</u></span>,<a>Zicheng Zhao</a>, <a href="https://yuanpengtu.github.io/" target="_blank">Yuanpeng Tu</a>, <a href="https://xavierchen34.github.io" target="_blank">Xi Chen</a>, <a href="https://scholar.google.com/citations?user=LdXFZScAAAAJ&hl=zh-CN&oi=ao" target="_blank">Ziran Qin</a>, <a href="https://scholar.google.com/citations?user=86n-wXsAAAAJ&hl=zh-CN" target="_blank">Tieyuan Chen</a>, <a href="https://scholar.google.com/citations?user=-24oYQoAAAAJ&hl=zh-CN&oi=ao" target="_blank">Yuxi Li</a>, <a href="https://sites.google.com/site/mehrtashharandi/" target="_blank">Mehrtash Harandi</a>, <a href="https://weiyaolin.github.io" target="_blank">Weiyao Lin</a></p>
 
-<em>ARXIV 2025, preprint</em>
+<em>International Conference on Learning Representations (<b>ICLR</b>), 2026</em>
 
 [**Arxiv**](http://arxiv.org/abs/2510.11538)|[**Project**](https://ganchaofan0000.github.io/project_dg/)|[**Github**](https://github.com/ganchaofan0000/DG)
 - **Massive Activations Drive Fine-Grained Local Detail Synthesis in DiTs.** 
